@@ -73,7 +73,6 @@ async function navigateAndPerformActions(page, context, responses, success, star
     };
 
     try {
-        // Navigate to resume page
         await page.goto(urls.resumePage);
         context.log("Navigated to Resume Application page");
         client.trackPageView({ 
