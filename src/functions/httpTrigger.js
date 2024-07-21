@@ -81,7 +81,7 @@ async function navigateAndPerformActions(page, context, responses, success, star
             url: urls.resumePage,
             id: uniqueId
          });
-
+//
         // Navigate to product page
         await page.goto(urls.productPage);
         context.log("Navigated to Products page");
